@@ -1,0 +1,27 @@
+{
+  "name": "traversymedia-babel-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "YosepRA",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:YosepRA/traversymedia-babel-webpack.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.6.4",
+    "regenerator-runtime": "^0.13.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
